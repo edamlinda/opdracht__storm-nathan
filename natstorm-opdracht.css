@@ -1,0 +1,80 @@
+
+.header__image {background-image: url("moon.gif");
+background-attachment: fixed;
+width: 100%;
+height: 60rem;
+}
+.header__nav__container {
+    display: flex;
+
+}
+.header__nav {
+
+display: flex;
+justify-content: space-evenly;
+padding: 2rem;}
+
+
+.header__nav__i {list-style: none;
+font-size: 3rem;
+color: white}
+
+ul:hover .header__nav__menu {width: initial;
+    color: red;
+    text-shadow: 5px 5px 5px white;
+    font-weight: bold;
+}
+
+.header__nav__menu {list-style: none;
+font-size: 3rem;
+color: white;
+width: 0;
+
+overflow: hidden;}
+
+.header__content__wrapper {text-align: center;
+width: 75%;
+margin-left: 13rem;
+padding-top: 10rem;}
+
+
+.header__content__title {color: white;
+font-size: 5rem;
+text-shadow: 5px 5px 5px blue;}
+
+.header__content__parg {color: white;
+font-size: 4rem;
+text-shadow: 5px 5px 5px blue;}
+
+.main__wrapper {width: 100%;
+height: 60rem;
+background-image: url(mainfoto.gif);
+}
+
+.main__image__wrapper {display: flex;
+justify-content: space-evenly;
+padding-top: 10rem;}
+
+.main__image__wrapper2 {display: flex;
+justify-content: space-evenly;
+padding-top: 10rem;}
+ 
+.main__card1 {background-image: url(foto1.webp);
+width: 20rem;
+height: 20rem;
+box-shadow: 5px 5px 5px blue;
+}
+
+.main__card1:hover {animation-name: image-reel1;
+animation-duration: 5s;
+animation-iteration-count: infinite; }
+
+@keyframes image-reel1 {
+    20% {background-image: url(foto2.webp)}
+    40% {background-image: url(foto3.webp)}
+}
+
+    .main__card2 {background-image: url(foto6.webp);
+width: 20rem;
+height: 20rem;}
+
